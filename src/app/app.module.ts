@@ -1,17 +1,23 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import bootstrap from "bootstrap"
+import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { NavComponent } from './home/nav/nav.component';
-import { SliderComponent } from './home/slider/slider.component';
-import { BoxesComponent } from './boxes/boxes.component';
-import { BouquetsComponent } from './bouquets/bouquets.component';
-import { CraftPackComponent } from './craft-pack/craft-pack.component';
-import { AboutUsComponent } from './about-us/about-us.component';
-import { ContactUsComponent } from './contact-us/contact-us.component';
+import { MainComponent } from './main/main.component';
+import { HomeComponent } from './main/home/home.component';
+import { NavComponent } from './nav/nav.component';
+import { SliderComponent } from './main/home/slider/slider.component';
+import { BoxesComponent } from './main/boxes/boxes.component';
+import { BouquetsComponent } from './main/bouquets/bouquets.component';
+import { CraftPackComponent } from './main/craft-pack/craft-pack.component';
+import { AboutUsComponent } from './main/about-us/about-us.component';
+import { ContactUsComponent } from './main/contact-us/contact-us.component';
+import { BoxContentComponent } from './box-content/box-content.component';
+import { BoxServiceService } from './main/boxes/box-service.service';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -23,13 +29,19 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     BouquetsComponent,
     CraftPackComponent,
     AboutUsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    MainComponent,
+    BoxContentComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule ,
+    CommonModule
   ],
-  providers: [],
+  providers: [
+    BoxServiceService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

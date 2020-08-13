@@ -1,0 +1,100 @@
+[
+  {
+    "categoryId": 1,
+    "categoryName": "Birthday",
+    "images": [
+      "../../../assets/img/Boxes/Pict/birthday/2.png"
+    ]
+  },
+  {
+    "categoryId": 2,
+    "categoryName": "For Him",
+    "images": [
+      "../../../assets/img/Boxes/Pict/for_him/4.png",
+      "../../../assets/img/Boxes/Pict/for_him/0cf1df7b-cdc3-4fed-aa95-c0b305f1286b.JPG",
+      "../../../assets/img/Boxes/Pict/for_him/0da89026-112e-4d6d-8b1d-c30936e841d4.JPG",
+      "../../../assets/img/Boxes/Pict/for_him/1abda8e2-a861-4986-9d86-95fc71b50789.JPG",
+      "../../../assets/img/Boxes/Pict/for_him/1dd6ec71-5ae5-45fe-ad20-eb3a407deb63.JPG",
+      "../../../assets/img/Boxes/Pict/for_him/9eb7239a-262b-4d70-9fc5-f31897f404c9.JPG",
+      "../../../assets/img/Boxes/Pict/for_him/985f8010-7a39-4337-a765-4aac074a09b8.JPG",
+      "../../../assets/img/Boxes/Pict/for_him/717271b3-dc64-4c4e-9f1a-72f99a8a3d99.JPG",
+      "../../../assets/img/Boxes/Pict/for_him/48700576-306b-4789-9b24-ad4caef44a06.JPG",
+      "../../../assets/img/Boxes/Pict/for_him/99947890-7391-4a97-9512-a979ce53ad29.JPG",
+      "../../../assets/img/Boxes/Pict/for_him/d858c7f6-55a3-4020-ae67-cd791dd5789c.JPG",
+      "../../../assets/img/Boxes/Pict/for_him/f0c59a93-b59b-4ab7-9da7-359ff5c48fc2.JPG",
+      "../../../assets/img/Boxes/Pict/for_him/fb838b07-adb2-40a9-92cd-8c0b2d92373e.JPG"
+    ]
+  },
+  {
+    "categoryId": 3,
+    "categoryName": "For Her",
+    "images": [
+      "../../../assets/img/Boxes/Pict/for_her/0cf1df7b-cdc3-4fed-aa95-c0b305f1286b.JPG",
+      "../../../assets/img/Boxes/Pict/for_her/0da89026-112e-4d6d-8b1d-c30936e841d4.JPG",
+      "../../../assets/img/Boxes/Pict/for_her/1abda8e2-a861-4986-9d86-95fc71b50789.JPG",
+      "../../../assets/img/Boxes/Pict/for_her/1dd6ec71-5ae5-45fe-ad20-eb3a407deb63.JPG",
+      "../../../assets/img/Boxes/Pict/for_her/9eb7239a-262b-4d70-9fc5-f31897f404c9.JPG",
+      "../../../assets/img/Boxes/Pict/for_her/985f8010-7a39-4337-a765-4aac074a09b8.JPG",
+      "../../../assets/img/Boxes/Pict/for_her/717271b3-dc64-4c4e-9f1a-72f99a8a3d99.JPG",
+      "../../../assets/img/Boxes/Pict/for_her/48700576-306b-4789-9b24-ad4caef44a06.JPG",
+      "../../../assets/img/Boxes/Pict/for_her/99947890-7391-4a97-9512-a979ce53ad29.JPG",
+      "../../../assets/img/Boxes/Pict/for_her/d858c7f6-55a3-4020-ae67-cd791dd5789c.JPG",
+      "../../../assets/img/Boxes/Pict/for_her/f0c59a93-b59b-4ab7-9da7-359ff5c48fc2.JPG",
+      "../../../assets/img/Boxes/Pict/for_her/fb838b07-adb2-40a9-92cd-8c0b2d92373e.JPG"
+    ]
+  },
+  {
+    "categoryId": 4,
+    "categoryName": "For Newborns",
+    "images": [
+      "../../../assets/img/Boxes/Pict/for_newborns/0f789499-8ece-4517-8196-87cbe226427e.JPG",
+      "../../../assets/img/Boxes/Pict/for_newborns/0a92ec7c-9f5d-40bb-b10f-141756036c88.JPG",
+      "../../../assets/img/Boxes/Pict/for_newborns/3f61db76-7397-4c0c-a960-c3d1bd55787b.JPG",
+      "../../../assets/img/Boxes/Pict/for_newborns/10c01a0d-05fb-42c8-8511-3c55d122cccc.JPG",
+      "../../../assets/img/Boxes/Pict/for_newborns/63d075bc-e695-4e6a-959a-d715b5930b79.JPG",
+      "../../../assets/img/Boxes/Pict/for_newborns/97fe5643-462d-4f55-8e2a-c69b87d6b328.JPG",
+      "../../../assets/img/Boxes/Pict/for_newborns/516c8f22-4f77-4b6b-b945-0891e0baa602.JPG",
+      "../../../assets/img/Boxes/Pict/for_newborns/8600c106-06d5-477a-9fdd-c6f164ada0c4.JPG",
+      "../../../assets/img/Boxes/Pict/for_newborns/d3cf1ce6-de7e-40e1-9f32-dc444584d943.JPG",
+      "../../../assets/img/Boxes/Pict/for_newborns/001.png"
+    ]
+  },
+  {
+    "categoryId": 5,
+    "categoryName": "For Children",
+    "images": [
+      "../../../assets/img/Boxes/Pict/for_children/5bb8047f-2460-4b7b-83b1-3c39035ec2a3.JPG",
+      "../../../assets/img/Boxes/Pict/for_children/7a076b36-80a8-4c3f-a11a-3911af146b63.JPG",
+      "../../../assets/img/Boxes/Pict/for_children/15a44f25-6870-4c68-8f2c-52a83c58f3dc.JPG",
+      "../../../assets/img/Boxes/Pict/for_children/29a93518-3c53-450e-974e-91ead0288ae1.JPG",
+      "../../../assets/img/Boxes/Pict/for_children/33ec2d25-d336-4c45-9ff6-8502da02b457.JPG",
+      "../../../assets/img/Boxes/Pict/for_children/dc009788-832b-47c8-9a9b-961f9a658914.JPG",
+      "../../../assets/img/Boxes/Pict/for_children/ef279d09-6c44-4add-9b2b-de606d3cf58e.JPG",
+      "../../../assets/img/Boxes/Pict/for_children/fcc9cd21-0911-469e-8cd9-2485fb5e0fdf.JPG",
+      "../../../assets/img/Boxes/Pict/for_children/fd92e8cd-bf89-4471-8087-4d833caea418.JPG"
+    ]
+  },
+  {
+    "categoryId": 6,
+    "categoryName": "Unicorn Lovers",
+    "images": [
+      "../../../assets/img/Boxes/Pict/unicorn_lovers/00aeeeb3-eefd-4e2a-8f24-471a137caafa.JPG",
+      "../../../assets/img/Boxes/Pict/unicorn_lovers/3a14b790-06af-4e40-8d6e-ec7e8490fd94.JPG",
+      "../../../assets/img/Boxes/Pict/unicorn_lovers/8eec4e6e-9030-4318-9121-671d4b9ee9ac.JPG",
+      "../../../assets/img/Boxes/Pict/unicorn_lovers/38b4f67c-b56d-4ab1-824d-16e6635a5727.JPG",
+      "../../../assets/img/Boxes/Pict/unicorn_lovers/53d2a13b-651c-4143-8dbd-4e027116369f.JPG",
+      "../../../assets/img/Boxes/Pict/unicorn_lovers/55c05598-38cd-4800-b843-1c16d7afd4bc.JPG",
+      "../../../assets/img/Boxes/Pict/unicorn_lovers/a57d1cbe-58a4-4f62-bb26-18ae052e00bd.JPG",
+      "../../../assets/img/Boxes/Pict/unicorn_lovers/aa36cc12-1451-4354-9170-496ecb98de5c.JPG",
+      "../../../assets/img/Boxes/Pict/unicorn_lovers/cc1207a7-a971-48f9-8d3f-8b2a59622973.JPG",
+      "../../../assets/img/Boxes/Pict/unicorn_lovers/e7a57b90-ff97-4355-a6a4-06a5dd3a2d6d.JPG"
+    ]
+  },
+  {
+    "categoryId": 7,
+    "categoryName": "Cristmas",
+    "images": [
+      "../../../assets/img/Boxes/Pict/christmas/3.png"
+    ]
+  }
+]

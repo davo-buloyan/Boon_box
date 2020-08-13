@@ -1,8 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { MainComponent } from "./main/main.component";
+import { BoxContentComponent } from './box-content/box-content.component';
 
-
-const routes: Routes = [];
+const routes: Routes = [
+  { path: '', component: MainComponent },
+  { path: 'boxImages/:id', component: BoxContentComponent}
+  // { path: 'main-component', component: MainComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

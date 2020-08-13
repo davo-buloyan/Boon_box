@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <div *ngIf="data.images">
+      <div class="col-4 " *ngFor="let item of data.images">
+        <div class="c-card">
+          <div class="c-card__wrapper">
+            <img src="{{ item }}" alt="images">
+            <div class="c-card__header">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
