@@ -1,32 +1,31 @@
-.bouquets-main {
-    position: relative;
 
-}
 
 .text-box {
-    position: absolute;
-    max-height: 500px;
-    width: 400px;
-    margin-left: auto;
+    height: 30rem;
+    align-self: start;
     font-weight: bold;
     font-size: 20px;
     color: black;
     background: rgba(255,242,217, 0.8) !important;
 }
 
-
 h2 {
     font-size: 32px;
-    margin: 2%;
 }
+
+h6{
+    font-size: 22px;
+}
+
+.btn  {
+    font-size:22px;
+    font-weight: bold;
+  }
 
 .carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 100%;
 }
-
- 
-
 
 
