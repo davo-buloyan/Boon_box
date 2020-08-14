@@ -7,6 +7,7 @@ import { CardModel } from '../model/model';
   templateUrl: './boxes.component.html',
   styleUrls: ['./boxes.component.scss']
 })
+
 export class BoxesComponent implements OnInit, OnChanges {
 
   @Input() cards: Array<CardModel>;
@@ -21,7 +22,6 @@ export class BoxesComponent implements OnInit, OnChanges {
     if (changes.cards && changes.cards.currentValue) {
 
       const items = this.cards;
-
       const matrix = [];
 
       for (let i = 0; i < items.length; i = i + this.perSlide) {

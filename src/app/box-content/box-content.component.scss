@@ -1,14 +1,11 @@
-.c-card{
-    margin-bottom: 32px;
-    &__wrapper{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        overflow: hidden;
-        background-color: #fff;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        min-height: 480px;
-    }
+.img-content {
+    width: 400px;
+    height: 400px;
 }
+
+img {
+  margin-top: 8px;
+  vertical-align: middle;
+
+}
+

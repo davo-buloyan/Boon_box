@@ -13,13 +13,9 @@ import { CardModel } from '../main/model/model';
 })
 export class BoxContentComponent implements OnInit {
 
-  // cards$ = this.boxService.getCards().pipe(
-  //   tap(data => console.log(data))
-  //);
   id: number;
   data: CardModel = new CardModel()
   arrayOfImages: Array<string>;
-
 
   constructor(
     private route: ActivatedRoute,
@@ -39,12 +35,7 @@ export class BoxContentComponent implements OnInit {
           res.categoryId == +this.id
           );
           console.log(this.data);
-
       })
-
-
-
-
     }
 
   ngOnInit() {
