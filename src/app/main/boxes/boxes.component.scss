@@ -3,16 +3,19 @@
 }
 
 .card-main {
-    height: 30rem;
+    height: 26rem;
 }
 
 .img-main {
-    border: 2px solid firebrick;
     height: 26rem;
 }
 
 .btn-main {
-    padding-top: 0, !important;
+    background: rgba(255,242,217, 0.9) !important;
+    bottom: -10%;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .carousel-indicators li {

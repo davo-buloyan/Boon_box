@@ -13,6 +13,7 @@
 .craft-pack-main{
     background-image: url('../../../assets/img/Craft_pack/background.png');
     background-repeat: no-repeat;
+    background-size: contain;
 
     height:50rem;
     width: 100%;
@@ -30,10 +31,6 @@
 .light-pink {
     background: rgba(246,168,119, 0.5) !important ;
 }
-
-// .carousel-item {
-//     height: 350px;
-// }
 
 .carousel-indicators li {
     width: 10px;
