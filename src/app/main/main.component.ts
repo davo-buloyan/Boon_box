@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { map, tap } from 'rxjs/operators';
 
-import { BoxServiceService } from './boxes/box-service.service';
+import { BoxServiceService } from './service/box-service.service';
 import { from, Observable } from 'rxjs';
 
 @Component({
@@ -35,7 +35,7 @@ export class MainComponent implements OnInit {
 
 //   setTimeout(() => {
 //     clearInterval(intervalId);
-//     observer.complete();  
+//     observer.complete();
 //   }, 10000);
 // });
 

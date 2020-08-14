@@ -16,8 +16,7 @@ import { CraftPackComponent } from './main/craft-pack/craft-pack.component';
 import { AboutUsComponent } from './main/about-us/about-us.component';
 import { ContactUsComponent } from './main/contact-us/contact-us.component';
 import { BoxContentComponent } from './box-content/box-content.component';
-import { BoxServiceService } from './main/boxes/box-service.service';
-import { from } from 'rxjs';
+import { BoxServiceService } from './main/service/box-service.service';
 
 @NgModule({
   declarations: [

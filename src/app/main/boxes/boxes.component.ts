@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { Router } from '@angular/router';
-import { CardModel } from './model';
+import { CardModel } from '../model/model';
 
 @Component({
   selector: 'app-boxes',
@@ -10,15 +10,15 @@ import { CardModel } from './model';
 export class BoxesComponent implements OnInit, OnChanges {
 
   @Input() cards: Array<CardModel>;
-  
+
   groupedSlides: Array< Array<CardModel> >;
 
   perSlide = 4;
 
-  constructor(private router: Router) {}   
-    
+  constructor(private router: Router) {}
+
   ngOnChanges(changes: SimpleChanges) {
-    if (changes['cards'] && changes['cards'].currentValue) {
+    if (changes.cards && changes.cards.currentValue) {
 
       const items = this.cards;
 
@@ -31,13 +31,13 @@ export class BoxesComponent implements OnInit, OnChanges {
       this.groupedSlides = matrix;
 
     }
-  };
+  }
 
   ngOnInit() {
   }
 
   onSlide() {
-    
+
   }
 
   btnClick(id) {

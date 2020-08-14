@@ -3,8 +3,8 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import {Observable} from 'rxjs';
 import {map, tap} from 'rxjs/operators';
 
-import { BoxServiceService } from '../main/boxes/box-service.service';
-import { CardModel } from '../main/boxes/model';
+import { BoxServiceService } from '../main/service/box-service.service';
+import { CardModel } from '../main/model/model';
 
 @Component({
   selector: 'app-box-content',
@@ -24,9 +24,9 @@ export class BoxContentComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private boxService: BoxServiceService,
-    ) 
-    
-    {      
+    )
+
+    {
       // const id: Observable<string> = route.params.pipe(map(p => p.id));
       // console.log(route.params['id']);
       this.route.params.subscribe(param => {
@@ -39,14 +39,14 @@ export class BoxContentComponent implements OnInit {
           res.categoryId == +this.id
           );
           console.log(this.data);
-      
+
       })
 
-     
 
-          
+
+
     }
-  
+
   ngOnInit() {
 
   }
