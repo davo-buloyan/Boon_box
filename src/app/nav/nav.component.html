@@ -17,8 +17,11 @@
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               BOXES
             </a>
-            <div class="dropdown-menu bg-transparent" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item text-white" href="#newborn">For Newborn</a>
+            <div class="dropdown-menu bg-transparent" 
+            aria-labelledby="navbarDropdown"
+            *ngFor="let item of datas.categoryName"
+            >
+              <a class="dropdown-item text-white" >For Newborn</a>
               <a class="dropdown-item text-white" href="#birtday">Birtday</a>
               <a class="dropdown-item text-white" href="#chrismas">Chrismas</a>
               <a class="dropdown-item text-white" href="#for_him">For Him</a>
@@ -34,3 +37,5 @@
     </div>
   </nav>
 </div>
+
+
