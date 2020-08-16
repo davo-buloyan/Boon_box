@@ -28,30 +28,24 @@
     bottom: -50px;
 }
 
+.left-btn {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    background: chartreuse;
+}
 
+.right-btn {
+    position: absolute;
+    top: 50%;    
+    right: 7%;
+    background: chartreuse;
+}
 
+.btn-main:hover {
 
-
-
-// .main-boxes {
-//     position: relative;
-//     height: 100vh;
-// }
-
-// .box {
-//     height: 100vh;
-//     background-color: #8ACAB5;
-// }
-
-// .up-side {
-//     height: 60%;
-//     background-color: white;
-// }
-
-// .down-side {
-//     height: 40%;
-// }
-
-// .carousel-all{
-//     padding-top: 15%;
-// }
+    
+    .btn-boxes {
+        font-size: 18px;
+    }
+}
