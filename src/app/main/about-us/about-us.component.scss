@@ -2,6 +2,7 @@
     background-image: url(../../../assets/img/About_us/backgroundAbout.png);
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 90vh;
 }
 
 .text-info-about {
@@ -13,8 +14,10 @@
 .rectangle {
     background-image: url(../../../assets/img/About_us/Rectangle.png);
     background-repeat: no-repeat;
+    background-size: contain;
     background-size: cover;
     border-bottom: 1px solid black;
+    min-height: 80vh;
    
 }
 
@@ -24,6 +27,7 @@
 
 .img-bg {
     background: rgba(243,237,224, 0.5) !important ;
+    min-height: 80vh;
 }
 
 @media all and (max-width: 700px) {
@@ -31,7 +35,9 @@
         background-image: none;
         border-left:  1px solid black;
         border-right: 1px solid black;
-        border-bottom: 1px solid black;
-       
+        border-bottom: 1px solid black;       
+    }
+    .text-info-about {
+        font-size: 16px;
     }
   }
