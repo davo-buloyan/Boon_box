@@ -13,8 +13,7 @@ import { CardModel } from '../main/model/model';
 })
 export class BoxContentComponent implements OnInit {
 
-  id: number;
-  data: CardModel = new CardModel()
+  data: CardModel = new CardModel();
   arrayOfImages: Array<string>;
 
   constructor(
@@ -26,16 +25,18 @@ export class BoxContentComponent implements OnInit {
       // const id: Observable<string> = route.params.pipe(map(p => p.id));
       // console.log(route.params['id']);
       this.route.params.subscribe(param => {
-        this.id = param.id,
-        console.log(this.id);
-      })
+        this.load(+param.id);
+      });
 
+
+    }
+
+    load(id){
       this.boxService.getCards().subscribe(data => {
         this.data = data.find(res =>
-          res.categoryId == +this.id
+          res.categoryId === id
           );
-          console.log(this.data);
-      })
+      });
     }
 
   ngOnInit() {

@@ -5,3 +5,15 @@
 li:hover > a {
     font-size: 20px;
 }
+
+.drop {
+    background: rgba(0, 0, 0, .2) !important;
+}
+
+.drop > a {
+    cursor: pointer;
+}
+
+.drop > a:hover {
+    background: rgba(0, 0, 0, .7) !important;
+}

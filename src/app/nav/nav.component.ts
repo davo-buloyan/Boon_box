@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ActivatedRoute, } from '@angular/router';
+import { ActivatedRoute, Router, } from '@angular/router';
 
 import { BoxServiceService } from "../main/service/box-service.service";
 import { CardModel } from '../main/model/model';
@@ -20,7 +20,7 @@ export class NavComponent implements OnInit {
   datas: Array<string>
 
   constructor(
-    private route: ActivatedRoute,
+    private router: Router,
     private boxService: BoxServiceService,
   ) {
     this.boxService.getCards().subscribe(data => {
@@ -32,6 +32,10 @@ export class NavComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  navigateTo(id){
+    this.router.navigate(['/boxImages', id]);
   }
 
 }
