@@ -1,5 +1,3 @@
-
-
 <div class="section-div contact-us-main  " id="contact">
   <div class="container">
     <div class="row pb-2 pt-2 w-100">
@@ -20,31 +18,31 @@
           </div>
         </div>
         <div class="col-6">
-          <form>
+          <form >
             <div class="form-group row">
               <div class="col-md-12">
-                <input type="text" class="form-control" placeholder="First Name (required)">
+                <input type="text" class="form-control"  [(ngModel)]="name" [ngModelOptions]="{standalone: true}" placeholder="First Name (required)" required>
               </div>
             </div>
             <div class="form-group row">
               <div class="col-md-12">
-                <input type="email" class="form-control" placeholder="Your E-Mail (required)">
+                <input type="email" class="form-control" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" placeholder="Your E-Mail (required)" required >
               </div>
             </div>
             <div class="form-group row">
               <div class="col-md-12">
-                <input type="text" class="form-control" placeholder="Subject">
+                <input type="text" class="form-control" placeholder="Subject" [(ngModel)]="subject" [ngModelOptions]="{standalone: true}">
               </div>
             </div>
             <div class="form-group row">
               <div class="col-md-12">
-                <textarea class="form-control" rows="9" placeholder="Youre Message"></textarea>
+                <textarea class="form-control" rows="9" placeholder="Youre Message" required [(ngModel)]="message" [ngModelOptions]="{standalone: true}"></textarea>
               </div>
             </div>
             <div class="form-group row">
               <div class="col-md-4 col-md-offset-4 ml-auto">
-                <button type="submit" data-toggle="modal" data-target="#alertModal"
-                  class="btn btn-light btn-contact btn-block btn-lg">SEND</button>
+                <button  type="submit" data-toggle="modal" data-target="#alertModal"
+                  class="btn btn-light btn-contact btn-block btn-lg" (click)="sendEmail()">SEND</button>
               </div>
             </div>
           </form>
