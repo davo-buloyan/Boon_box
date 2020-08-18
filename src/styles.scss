@@ -4,7 +4,8 @@ body {
     @font-face {font-family: "Bodoni Bk BT"; src: url("../src/assets/fonts/tt0035m.ttf") format("truetype"); }
 }
 
-// * {
-//     font-family: "Bodoni Bk BT" /* Replace with your custom font */ !important; 
-//     /* Add !important to overwrite all elements */
-//   }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }

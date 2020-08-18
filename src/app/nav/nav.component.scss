@@ -1,19 +1,23 @@
-.navbar-inv {
-    background: rgba(0, 0, 0, .2) !important;
+.container {
+  font-family: "Bodoni Bk BT" !important;
 }
 
-li:hover > a {
-    font-size: 20px;
+.navbar-inv {
+  background: rgba(0, 0, 0, .2) !important;
+}
+
+li:hover>a {
+  font-size: 20px;
 }
 
 .drop {
-    background: rgba(0, 0, 0, .2) !important;
+  background: rgba(0, 0, 0, .2) !important;
 }
 
-.drop > a {
-    cursor: pointer;
+.drop>a {
+  cursor: pointer;
 }
 
-.drop > a:hover {
-    background: rgba(0, 0, 0, .7) !important;
+.drop>a:hover {
+  background: rgba(0, 0, 0, .7) !important;
 }

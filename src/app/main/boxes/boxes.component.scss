@@ -1,4 +1,5 @@
 .boxes-main {
+    font-family: "Bodoni Bk BT"  !important; 
     background: linear-gradient(to bottom,  #fcfcfc 55%, #8ACAB5 45%, );
 }
 
@@ -49,7 +50,7 @@
 
 .btn-main:hover {
 
-    
+    cursor: pointer;
     .btn-boxes {
         font-size: 18px;
     }

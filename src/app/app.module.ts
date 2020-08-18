@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
+import {FormsModule} from '@angular/forms'
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -36,7 +37,8 @@ import { BoxServiceService } from './main/service/box-service.service';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule ,
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   providers: [
     BoxServiceService,
