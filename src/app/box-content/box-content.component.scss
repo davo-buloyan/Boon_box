@@ -12,3 +12,30 @@ img {
 .contant {
   margin-top:150px;
 }
+
+
+.modal-content {
+  height:90vh;
+  width: 90vh;
+}
+
+
+
+.img-modal {
+  height: 86vh;
+  width: 86vh;
+}
+
+@media all and (max-width: 700px) {
+  .modal-content {
+    height: 60vh;
+    width: 50vh;
+  }
+
+  .img-modal {
+    height: 52vh;
+    width: 46vh;
+  }
+}
+
+

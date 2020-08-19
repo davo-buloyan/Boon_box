@@ -15,6 +15,7 @@ export class BoxContentComponent implements OnInit {
 
   data: CardModel = new CardModel();
   arrayOfImages: Array<string>;
+  clickedImg: string
 
   constructor(
     private route: ActivatedRoute,
