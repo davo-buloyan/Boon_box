@@ -33,25 +33,18 @@ export class ContactUsComponent implements OnInit {
   }
 
   sendEmail() {
-    console.log(
-      this.email,
-    this.name,
-    this.subject,
-    this.message,
-    );
-    
-    // let postVars = {
-    //   email: this.email,
-    //   name: this.name,
-    //   subject: this.subject,
-    //   message: this.message
-    // };
+    let postVars = {
+      email: this.email,
+      name: this.name,
+      subject: this.subject,
+      message: this.message
+    };
 
-    // //You may also want to check the response. But again, let's keep it simple.
-    // this.http.post(this.endpoint, postVars)
-    //   .subscribe(
-    //     response => console.log(response),
-    //     response => console.log(response)
-    //   )
+    //You may also want to check the response. But again, let's keep it simple.
+    this.http.post(this.endpoint, postVars)
+      .subscribe(
+        response => console.log(response),
+        response => console.log(response)
+      )
   }
 }

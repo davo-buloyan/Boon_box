@@ -39,6 +39,10 @@ export class BoxContentComponent implements OnInit {
       });
     }
 
+    removeImage(index){
+
+    }
+
   ngOnInit() {
 
   }
