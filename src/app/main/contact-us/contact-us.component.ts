@@ -23,13 +23,13 @@ export class ContactUsComponent implements OnInit {
 
   ngOnInit() {
     //This data could really come from some inputs on the interface - but let's keep it simple.
-    this.email = " ";
-    this.name = " ";
-    this.subject = " "
-    this.message = " ";
+    this.email = "";
+    this.name = "";
+    this.subject = ""
+    this.message = "";
 
     //Start php via the built in server: $ php -S localhost:8000
-    this.endpoint = "http://boonbox.shop/assets/sendEmail.php";
+    this.endpoint = "http://boonbox.shop/assets/index.php";
   }
 
   sendEmail() {

@@ -6,7 +6,6 @@ import { BoxContentComponent } from './box-content/box-content.component';
 const routes: Routes = [
   { path: '', component: MainComponent },
   { path: 'boxImages/:id', component: BoxContentComponent},
-  // { path: 'main-component', component: MainComponent }
   {
     path: '**',
     redirectTo: '',

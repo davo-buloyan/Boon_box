@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute, ParamMap } from '@angular/router';
-import { tap } from 'rxjs/operators';
+import { ActivatedRoute } from '@angular/router';
 
 import { BoxServiceService } from './service/box-service.service';
-import { from, Observable } from 'rxjs';
 
 @Component({
   selector: 'app-main',
@@ -13,7 +11,6 @@ import { from, Observable } from 'rxjs';
 export class MainComponent {
 
   cards$ = this.boxService.getCards().pipe(
-    // tap(data => console.log(data))
   );
 
   constructor(
